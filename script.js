@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const uploadButton = document.createElement("button");
     uploadButton.textContent = "Upload Images";
     document.body.insertBefore(uploadButton, gallery);
-    document.body.insertBefore(uploadInput, gallery);
     
     uploadButton.addEventListener("click", () => uploadInput.click());
     
